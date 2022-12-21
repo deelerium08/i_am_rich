@@ -11,6 +11,12 @@ void main() {
           title: const Text("I Am Rich hello"),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: const Center(
+          child: Image(
+            image: NetworkImage(
+                'https://images.pexels.com/photos/91216/pexels-photo-91216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+          ),
+        ),
       ),
     ),
   );
